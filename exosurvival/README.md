@@ -2,6 +2,16 @@
 
 REST API para o jogo educacional **ExoSurvival**, onde jogadores configuram planetas usando dados reais de exoplanetas e gerenciam recursos para sobreviver.
 
+## Como funciona
+
+ExoSurvival é um jogo educacional de sobrevivência baseado em dados reais de exoplanetas.
+
+Antes de jogar, você configura seu planeta informando parâmetros como temperatura, gravidade, pressão atmosférica e disponibilidade de água. O sistema compara esses valores com médias reais de exoplanetas catalogados pela NASA e calcula automaticamente a dificuldade da partida — um planeta com 60°C e baixo oxigênio vai drenar seus recursos muito mais rápido do que um próximo às condições da Terra.
+
+Durante o jogo, você gerencia cinco recursos (oxigênio, comida, energia, materiais e temperatura) que caem constantemente. Para sobreviver, você interage com estruturas da cidade — um restaurante aumenta a comida mas consome energia, um gerador recarrega energia mas aquece o ambiente. O objetivo é durar o máximo de tempo possível antes que qualquer recurso chegue a zero.
+
+Ao fim de cada partida, um resumo mostra quanto tempo você sobreviveu, o que causou sua morte e as condições finais do planeta.
+
 ## Tecnologias
 
 - Java 17
